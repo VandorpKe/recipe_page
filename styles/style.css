@@ -12,7 +12,7 @@ main{
     border-radius: 20px;
     width: 650px;
     height: fit-content;
-    margin: 150px auto;
+    margin: 125px auto;
     padding: 40px
 }
 
@@ -33,6 +33,7 @@ h1{
 h2 {
     color: hsl(14, 45%, 36%);
     font-size: 1.8em;
+    margin-top: 30px;
 }
 
 li, p, tr {
