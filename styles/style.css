@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Young Serif';
+    src: url("/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+@font-face {
+    font-family: 'OFL';
+    src: url("/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-family: 'OFL', sans-serif;
+
+}
+
+.bold {
+    font-weight: 700;
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    width: 650px;
+    height: fit-content;
+    margin: 100px auto;
+    padding: 40px
+}
+
+img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+h1, h2 {
+    font-family: 'Young Serif', sans-serif;
+    font-weight: 400;
+}
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-size: 1.7em;
+}
+
+li, p, tr {
+    color: hsl(30, 10%, 34%);
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.tab {
+    --padding: 25px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    padding: var(--padding);
+}
+
+h3 {
+    margin: 0;
+}
+
+li {
+    --margin: 10px;
+    padding-left: 20px;
+    margin-bottom: var(--margin);
+    margin-top: var(--margin);
+}
+.tab li::marker, h3{
+    color: hsl(332, 51%, 32%);
+}
+
+ul {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+li::marker, .ingredient{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+    border: none;
+    margin-top: 25px;
+}
+
+tr {
+    border-bottom: 1px hsl(30, 18%, 87%) solid;
+    height: 50px;
+}
+
+td{
+    width: 50%;
+}
+
+td:first-of-type {
+    padding-left: 35px;
+}
+
+table{
+    border-collapse: collapse;
+    border-bottom: none;
+    width: 100%;
+}
+tr:last-of-type {
+    border-bottom: none;
+}
+
+@media only screen and (max-width: 375px){
+    main{
+        background-color: white;
+        border-radius: 0;
+        width: 100%;
+        height: fit-content;
+        padding: 40px;
+        margin: 0;
+    }
+
+    body{
+        margin: 0;
+    }
+}
