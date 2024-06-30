@@ -12,7 +12,7 @@ main{
     border-radius: 20px;
     width: 650px;
     height: fit-content;
-    margin: 100px auto;
+    margin: 150px auto;
     padding: 40px
 }
 
@@ -25,9 +25,14 @@ h1, h2 {
     font-family: 'Young Serif', sans-serif;
     font-weight: 400;
 }
+
+h1{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
 h2 {
     color: hsl(14, 45%, 36%);
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 
 li, p, tr {
@@ -63,6 +68,10 @@ li {
 ul {
     margin-top: 15px;
     margin-bottom: 0;
+}
+
+ul, ol {
+    padding-left: 20px;
 }
 
 li::marker, .ingredient{
